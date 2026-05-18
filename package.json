@@ -1,0 +1,16 @@
+{
+  "name": "arc-mini-arcade",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "build": "npm run build -w web",
+    "contracts:compile": "npm run compile -w @arc-arcade/contracts",
+    "contracts:test": "npm run test -w @arc-arcade/contracts",
+    "contracts:deploy:arc": "npm run deploy:arc -w @arc-arcade/contracts"
+  }
+}
