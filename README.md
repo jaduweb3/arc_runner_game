@@ -230,6 +230,14 @@ Add this network in your wallet:
 
 ---
 
+## ☁️ Deploy to production
+
+The full Vercel deployment guide is in **[DEPLOYMENT.md](./DEPLOYMENT.md)** — covers monorepo config, environment variables, WalletConnect domain whitelisting, and post-deploy smoke tests.
+
+TL;DR: import the repo into Vercel, set **Root Directory** to `apps/web`, add the env vars from DEPLOYMENT.md, click Deploy.
+
+---
+
 ## 🗺️ Roadmap
 
 - [x] Phase 1 — Phaser endless runner core
